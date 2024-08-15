@@ -1,0 +1,38 @@
+/* Ensure images fill the container */
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Hover effect container */
+.hover-effect {
+    overflow: hidden; /* Ensures image doesn't overflow container */
+    position: relative; /* Allows for absolute positioning of overlay */
+}
+
+/* Image hover effect */
+.hover-effect img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover img {
+    transform: scale(1.1); /* Zoom effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+/* Optional: Add a dark overlay with text for additional effect */
+.hover-effect::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.hover-effect:hover::before {
+    opacity: 1;
+}
