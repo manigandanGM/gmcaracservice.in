@@ -579,3 +579,46 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* Navbar Styling */
+.nav-part {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Navbar Scrolled Effect */
+.nav-part.scrolled {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effect for Links */
+.nacul li a {
+  color: #333;
+  transition: color 0.3s ease, border-bottom 0.3s ease, background-color 0.3s ease;
+  border-bottom: 2px solid transparent;
+  padding: 5px 10px;
+}
+
+.nacul li a:hover {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: 4px;
+}
+
+/* Active Link Styling */
+.nacul li a.active {
+  color: #0056b3;
+  font-weight: bold;
+  border-bottom: 2px solid #0056b3;
+}
+
+/* Smooth Collapse Animation */
+.collapse {
+  transition: height 0.3s ease, opacity 0.3s ease;
+}
