@@ -1,0 +1,69 @@
+ /* Custom CSS for Mobile Responsiveness */
+ @media (max-width: 767.98px) {
+    .hed-top .leftlist {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hed-top .leftlist li {
+        margin-bottom: 10px;
+    }
+
+    .nav-part .nacul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-part .nacul li {
+        margin-bottom: 10px;
+    }
+
+    .about-container .row {
+        flex-direction: column;
+    }
+
+    .about-container .col-lg-5,
+    .about-container .col-lg-7,
+    .about-container .col-lg-4,
+    .about-container .col-lg-8 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer .row {
+        flex-direction: column;
+    }
+
+    .footer .col-md-4,
+    .footer .col-md-8 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer .col-md-6 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer .detail h3 {
+        font-size: 14px;
+    }
+
+    .copy .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .copy .container span {
+        margin-top: 10px;
+    }
+
+    .page-nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .page-nav ul li {
+        margin-bottom: 5px;
+    }
+}

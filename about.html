@@ -15,7 +15,79 @@
             <link rel="stylesheet" href="assets/css/lan-hover.css">
             <link rel="stylesheet" href="assets/css/por-hover.css">
             <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+            <link rel="stylesheet" href="/assets/css/align.css">
             
+            <style>
+                 /* Custom CSS for Mobile Responsiveness */
+        @media (max-width: 767.98px) {
+            .hed-top .leftlist {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .hed-top .leftlist li {
+                margin-bottom: 10px;
+            }
+
+            .nav-part .nacul {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .nav-part .nacul li {
+                margin-bottom: 10px;
+            }
+
+            .about-container .row {
+                flex-direction: column;
+            }
+
+            .about-container .col-lg-5,
+            .about-container .col-lg-7,
+            .about-container .col-lg-4,
+            .about-container .col-lg-8 {
+                width: 100%;
+                padding: 0;
+            }
+
+            .footer .row {
+                flex-direction: column;
+            }
+
+            .footer .col-md-4,
+            .footer .col-md-8 {
+                width: 100%;
+                padding: 0;
+            }
+
+            .footer .col-md-6 {
+                width: 100%;
+                padding: 0;
+            }
+
+            .footer .detail h3 {
+                font-size: 14px;
+            }
+
+            .copy .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .copy .container span {
+                margin-top: 10px;
+            }
+
+            .page-nav ul {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .page-nav ul li {
+                margin-bottom: 5px;
+            }
+        }
+            </style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VH5YQW90ML"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -31,8 +103,9 @@
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "pabt93e0kw");
 </script>
+
 </head>
-        <body class="bg-white">
+        <body class="bg-white d-flex flex-column">
         <header class="shadow-md">
            <!-- Top Bar -->
            <div class="hed-top bg-secondary border-bottom">
@@ -238,67 +311,56 @@
 
         
 
-        <footer class="bg-dark text-white big-padding pb-0" data-aos="fade-down-left">
-            <div class="container-xl ">
+          <footer class="bg-dark text-white big-padding pb-0">
+            <div class="container-xl">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="aboutcol bg-gray fs-7 bg-dark shadow-lg p-5" data-aos="fade-up-right">
-                            <p class="mb-2">Comprehensive A/C Services: Describe the range of A/C services you offer, including inspections, repairs, refrigerant recharge, and component replacements</p>
-                            <p class="mb-2">Stay Cool on the Road: Introduce your sales division, emphasizing the importance of well-functioning A/C systems</p>
-                            <p class="mb-2">Enhance Engine Performance: Describe the benefits of decarbonization for fuel efficiency and power.</p>
+                    <div class="col-md-4 col-12">
+                        <div class="aboutcol bg-gray fs-7 bg-dark shadow-lg p-5">
+                            <p class="mb-2">Comprehensive A/C Services...</p>
+                            <p class="mb-2">Stay Cool on the Road...</p>
+                            <p class="mb-2">Enhance Engine Performance...</p>
                         </div>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 col-12">
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <div class="col-md-2 text-center text-primary">
-                                        
-                                    </div> 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 pt-5">
+                            <div class="col-md-6 col-12 pt-5">
                                 <h4 class="fs-5 fw-bolder text-white">Useful Links</h4>
                                 <ul class="row">
-                                    <li class="p-2 "><a class="text-white" href="index.html"><i class="bi bi-caret-right-fill"></i> Home</a></li>
-                                    <li class="p-2"><a  class="text-white" href="about.html"><i class="bi bi-caret-right-fill"></i> About Us</a></li>
-                                    <li class="p-2"><a  class="text-white" href="services.html"><i class="bi bi-caret-right-fill"></i> Services</a></li>
-                                    <li class="p-2"><a  class="text-white" href="Gallery.html"><i class="bi bi-caret-right-fill"></i> Gallery</a></li>
-                                    <li class="p-2"><a  class="text-white" href="review.html"></i> review</a></li>
-                                    <li class="p-2"><a  class="text-white" href="contact.html"><i class="bi bi-caret-right-fill"></i> Contact Us</a></li>
+                                    <li class="p-2 col-12"><a class="text-white" href="index.html"><i class="bi bi-caret-right-fill"></i> Home</a></li>
+                                    <li class="p-2 col-12"><a class="text-white" href="about.html"><i class="bi bi-caret-right-fill"></i> About Us</a></li>
+                                    <li class="p-2 col-12"><a class="text-white" href="services.html"><i class="bi bi-caret-right-fill"></i> Services</a></li>
+                                    <li class="p-2 col-12"><a class="text-white" href="Gallery.html"><i class="bi bi-caret-right-fill"></i> Gallery</a></li>
+                                    <li class="p-2 col-12"><a class="text-white" href="review.html"><i class="bi bi-caret-right-fill"></i> Review</a></li>
+                                    <li class="p-2 col-12"><a class="text-white" href="contact.html"><i class="bi bi-caret-right-fill"></i> Contact Us</a></li>
                                 </ul>
                             </div>
-                            <div class="col-md-6  pt-5" data-aos="fade-in-right">
-    
+                            <div class="col-md-6 col-12 pt-5">
                                 <div class="input-group mb-3">
                                     TIMINGS<br>
-                                    Sunday	Closed<br>
-                                    Monday	10 am–8 pm<br> 
-                                    Tuesday	10 am–8 pm<br>
-                                    Wednesday	10 am–8 pm<br> 
-                                    Thursday	10 am–8 pm <br>
-                                    Friday	10 am–8 pm <br>
-                                    Saturday	10 am–8 pm <br>
-                                   
+                                    Sunday Closed<br>
+                                    Monday 10 am–8 pm<br>
+                                    Tuesday 10 am–8 pm<br>
+                                    Wednesday 10 am–8 pm<br>
+                                    Thursday 10 am–8 pm<br>
+                                    Friday 10 am–8 pm<br>
+                                    Saturday 10 am–8 pm<br>
                                 </div>
-                                <div class="col-md-2 d-none d-lg-block align-self-center">
-                                    <a href="tel:+91 8428000085 "> <img class="w-100 mb-2" src="assets/images/call now.png" alt=""></a>
+                                <div class="col-md-2 col-12 d-block align-self-center">
+                                    <a href="tel:+91 8428000085"> <img class="w-100 mb-2" src="assets/images/call now.png" alt=""></a>
                                 </div>
-                                <div>
                                 <div class="d-flex pt-4">
-                                    <a href="https://maps.app.goo.gl/qiZnvCGoscXe3PmM8" target="_blank"><div class="icon p-2">
-                                        <i class="bi fs-2 p-2 bi-geo-alt"></i></a>
+                                    <a href="https://maps.app.goo.gl/qiZnvCGoscXe3PmM8" target="_blank">
+                                        <div class="icon p-2">
+                                            <i class="bi fs-2 p-2 bi-geo-alt"></i>
+                                        </div>
+                                    </a>
+                                    <div class="detail text-white">
+                                        <h6 class="text-white"><a href="https://maps.app.goo.gl/qiZnvCGoscXe3PmM8" target="_blank">Address</a></h6>
+                                        <h3 class="text-white fs-7 fw-bolder">
+                                            No:16 Gangai Amman Kovil Street, Kallikuppam, Ambattur, Chennai, Tamil Nadu 600053
+                                        </h3>
                                     </div>
-                        <div class="detail text-white">
-                            <h6 class="text-white"><a href="https://maps.app.goo.gl/qiZnvCGoscXe3PmM8" target="_blank">Address</a></h6>
-                            <h3 class="text-white fs-7 fw-bolder">
-                               No:16 Gangai Amman Kovil Street,Kallikuppam,Ambattur,Chennai,Tamil Nadu 600053
-                            </h3>
-                        </div>
-                        
-                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
